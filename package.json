@@ -10,7 +10,6 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "preinstall": "npx npm-force-resolutions",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tylor",
@@ -56,8 +55,5 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19" 
-  },
-    "resolutions": {
-  "css-select": "5.2.0"
- } 
+  }
 }
