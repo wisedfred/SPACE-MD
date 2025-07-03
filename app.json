@@ -63,7 +63,7 @@
     "description": "Enter telegram bot token for interaction with this bot via telegram (optional)",
     "value": "",
     "required": false
-  },
+  }
 },
   "buildpacks": [
     {
