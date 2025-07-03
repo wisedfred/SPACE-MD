@@ -53,7 +53,17 @@
     "description": "Antidelete and Antiedit functionality, set true to enable and false to disable. (⚠️ This function consumes a lot of memory + storage, only enable if you have enough resources ⚠️)",
     "value": "",
     "required": false
-  } 
+  },
+    "ADMIN_PASSWORD": {
+    "description": "This will be used as a password for gaining administrative access to the bot",
+    "value": "11223344",
+    "required": false
+  }, 
+    "TELEGRAM_BOT_TOKEN": {
+    "description": "Enter telegram bot token for interaction with this bot via telegram (optional)",
+    "value": "",
+    "required": false
+  },
 },
   "buildpacks": [
     {
